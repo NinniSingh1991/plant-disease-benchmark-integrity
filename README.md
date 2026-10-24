@@ -2,6 +2,8 @@
 
 Code, clean split lists, duplicate and conflict lists, results and test predictions of a study on the integrity of public plant disease benchmarks.
 
+The associated paper is currently under review.
+
 ## Contents
 
 | Folder | Content |
