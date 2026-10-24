@@ -1,9 +1,6 @@
 # Plant disease benchmark integrity and integrity-aware adaptive fusion
 
-Code, clean split lists, duplicate and conflict lists, results and test predictions for the article
-
-> **Leakage-free and label-conflict-robust accuracy in plant disease recognition using integrity-aware adaptive fusion of fine-tuned convolutional and foundation models**
-> Ninni Singh and Vinit Kumar Gunjan (manuscript under review).
+Code, clean split lists, duplicate and conflict lists, results and test predictions of a study on the integrity of public plant disease benchmarks.
 
 ## Contents
 
