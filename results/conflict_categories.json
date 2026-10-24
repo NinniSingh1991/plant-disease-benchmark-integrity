@@ -1,0 +1,840 @@
+{
+ "corn_label_map_from_plantvillage": {
+  "3": {
+   "Corn_(maize)___healthy": 1166
+  },
+  "2": {
+   "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": 513
+  },
+  "0": {
+   "Corn_(maize)___Northern_Leaf_Blight": 989
+  },
+  "1": {
+   "Corn_(maize)___Common_rust_": 1192
+  }
+ },
+ "plantvillage": {
+  "conflicting_groups": 2,
+  "categories": {
+   "different crop": 1,
+   "same crop, healthy vs diseased": 1
+  },
+  "pct": {
+   "different crop": 50.0,
+   "same crop, healthy vs diseased": 50.0
+  },
+  "top_label_pairs": [
+   [
+    "Cherry_(including_sour)___healthy | Soybean___healthy",
+    1
+   ],
+   [
+    "Tomato___Late_blight | Tomato___healthy",
+    1
+   ]
+  ]
+ },
+ "plantdoc": {
+  "conflicting_groups": 32,
+  "categories": {
+   "same crop, different disease": 18,
+   "different crop": 14
+  },
+  "pct": {
+   "same crop, different disease": 56.25,
+   "different crop": 43.75
+  },
+  "top_label_pairs": [
+   [
+    "Potato leaf early blight | Potato leaf late blight",
+    6
+   ],
+   [
+    "Potato leaf early blight | Tomato Early blight leaf",
+    5
+   ],
+   [
+    "Corn Gray leaf spot | Corn leaf blight",
+    4
+   ],
+   [
+    "Tomato Septoria leaf spot | Tomato leaf bacterial spot",
+    3
+   ],
+   [
+    "Potato leaf early blight | Tomato leaf late blight",
+    3
+   ],
+   [
+    "Potato leaf late blight | Tomato leaf late blight",
+    2
+   ],
+   [
+    "Tomato Early blight leaf | Tomato Septoria leaf spot",
+    2
+   ],
+   [
+    "Potato leaf early blight | Potato leaf late blight | Tomato leaf late blight",
+    1
+   ],
+   [
+    "Bell_pepper leaf spot | Tomato Septoria leaf spot",
+    1
+   ],
+   [
+    "Potato leaf early blight | Tomato Septoria leaf spot",
+    1
+   ],
+   [
+    "Potato leaf late blight | Tomato Early blight leaf",
+    1
+   ],
+   [
+    "Tomato Early blight leaf | Tomato leaf late blight",
+    1
+   ],
+   [
+    "Tomato leaf mosaic virus | Tomato leaf yellow virus",
+    1
+   ],
+   [
+    "Tomato leaf yellow virus | Tomato mold leaf",
+    1
+   ]
+  ]
+ },
+ "paddydoctor": {
+  "conflicting_groups": 21,
+  "categories": {
+   "same crop, healthy vs diseased": 6,
+   "same crop, different disease": 15
+  },
+  "pct": {
+   "same crop, healthy vs diseased": 28.571428571428573,
+   "same crop, different disease": 71.42857142857143
+  },
+  "top_label_pairs": [
+   [
+    "3 | 6",
+    6
+   ],
+   [
+    "7 | 8",
+    4
+   ],
+   [
+    "6 | 9",
+    3
+   ],
+   [
+    "1 | 4",
+    2
+   ],
+   [
+    "2 | 8",
+    1
+   ],
+   [
+    "4 | 6",
+    1
+   ],
+   [
+    "3 | 7",
+    1
+   ],
+   [
+    "7 | 9",
+    1
+   ],
+   [
+    "1 | 6",
+    1
+   ],
+   [
+    "8 | 9",
+    1
+   ]
+  ]
+ },
+ "rice_leaf": {
+  "conflicting_groups": 1,
+  "categories": {
+   "same crop, different disease": 1
+  },
+  "pct": {
+   "same crop, different disease": 100.0
+  },
+  "top_label_pairs": [
+   [
+    "1 | 4",
+    1
+   ]
+  ]
+ },
+ "plantwild": {
+  "conflicting_groups": 385,
+  "categories": {
+   "same crop, different disease": 132,
+   "different crop": 219,
+   "same crop, healthy vs diseased": 34
+  },
+  "pct": {
+   "same crop, different disease": 34.285714285714285,
+   "different crop": 56.883116883116884,
+   "same crop, healthy vs diseased": 8.831168831168831
+  },
+  "top_label_pairs": [
+   [
+    "cabbage alternaria leaf spot | cauliflower alternaria leaf spot",
+    22
+   ],
+   [
+    "corn gray leaf spot | corn northern leaf blight",
+    18
+   ],
+   [
+    "cucumber powdery mildew | squash powdery mildew",
+    18
+   ],
+   [
+    "potato early blight | tomato early blight",
+    17
+   ],
+   [
+    "ginger sheath blight | rice sheath blight",
+    14
+   ],
+   [
+    "tomato bacterial leaf spot | tomato septoria leaf spot",
+    14
+   ],
+   [
+    "potato early blight | potato late blight",
+    11
+   ],
+   [
+    "tomato mosaic virus | tomato yellow leaf curl virus",
+    11
+   ],
+   [
+    "tomato early blight | tomato late blight",
+    9
+   ],
+   [
+    "bean leaf | soybean leaf",
+    7
+   ],
+   [
+    "lettuce downy mildew | lettuce mosaic virus",
+    7
+   ],
+   [
+    "garlic leaf blight | garlic rust",
+    6
+   ],
+   [
+    "tomato early blight | tomato septoria leaf spot",
+    6
+   ],
+   [
+    "apple black rot | apple scab",
+    5
+   ],
+   [
+    "apple rust | apple scab",
+    5
+   ]
+  ]
+ },
+ "plantpathology2021": {
+  "conflicting_groups": 26,
+  "categories": {
+   "same crop, different disease": 26
+  },
+  "pct": {
+   "same crop, different disease": 100.0
+  },
+  "top_label_pairs": [
+   [
+    "0 | 4",
+    19
+   ],
+   [
+    "0+4 | 4",
+    6
+   ],
+   [
+    "1+4 | 4",
+    1
+   ]
+  ]
+ },
+ "corn_maize": {
+  "conflicting_groups": 3,
+  "categories": {
+   "same crop, different disease": 3
+  },
+  "pct": {
+   "same crop, different disease": 100.0
+  },
+  "top_label_pairs": [
+   [
+    "0 | 2",
+    3
+   ]
+  ]
+ },
+ "cross_benchmark_label_agreement": {
+  "corn_maize | plantvillage": {
+   "same crop and condition": 3860
+  },
+  "corn_maize | plantdoc": {
+   "same crop and condition": 288,
+   "same crop, other condition": 7
+  },
+  "corn_maize | plantwild": {
+   "same crop and condition": 49,
+   "same crop, other condition": 12,
+   "different crop": 1
+  },
+  "plantdoc | plantwild": {
+   "same crop and condition": 291,
+   "same crop, other condition": 65,
+   "different crop": 61
+  },
+  "plantvillage | plantwild": {
+   "same crop and condition": 41,
+   "same crop, other condition": 3
+  }
+ },
+ "cross_benchmark_mismatches": [
+  [
+   "plantdoc | plantwild",
+   [
+    "potato",
+    "early blight"
+   ],
+   [
+    "tomato",
+    "early blight"
+   ],
+   20
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "bacterial spot"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   14
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "potato",
+    "early blight"
+   ],
+   [
+    "potato",
+    "late blight"
+   ],
+   12
+  ],
+  [
+   "corn_maize | plantwild",
+   [
+    "corn",
+    "gray spot"
+   ],
+   [
+    "corn",
+    "northern blight"
+   ],
+   11
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "corn",
+    "gray spot"
+   ],
+   [
+    "corn",
+    "northern blight"
+   ],
+   11
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "early blight"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   8
+  ],
+  [
+   "corn_maize | plantdoc",
+   [
+    "corn",
+    "gray spot"
+   ],
+   [
+    "corn",
+    "northern blight"
+   ],
+   7
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "potato",
+    "late blight"
+   ],
+   [
+    "tomato",
+    "late blight"
+   ],
+   6
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "bacterial spot"
+   ],
+   [
+    "tomato",
+    "early blight"
+   ],
+   6
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "early blight"
+   ],
+   [
+    "tomato",
+    "late blight"
+   ],
+   5
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "potato",
+    "early blight"
+   ],
+   [
+    "tomato",
+    "late blight"
+   ],
+   5
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "cucumber",
+    "powdery mildew"
+   ],
+   [
+    "squash",
+    "powdery mildew"
+   ],
+   4
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "pepper",
+    "bacterial spot"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   3
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "potato",
+    "early blight"
+   ],
+   [
+    "tomato",
+    "bacterial spot"
+   ],
+   3
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "cauliflower",
+    "alternaria spot"
+   ],
+   [
+    "potato",
+    "early blight"
+   ],
+   2
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "potato",
+    "early blight"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   2
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "celery",
+    "early blight"
+   ],
+   [
+    "tomato",
+    "early blight"
+   ],
+   2
+  ],
+  [
+   "plantvillage | plantwild",
+   [
+    "grape",
+    "black rot"
+   ],
+   [
+    "grape",
+    "spot"
+   ],
+   2
+  ],
+  [
+   "corn_maize | plantwild",
+   [
+    "blueberry",
+    "rust"
+   ],
+   [
+    "corn",
+    "rust"
+   ],
+   1
+  ],
+  [
+   "corn_maize | plantwild",
+   [
+    "corn",
+    "gray spot"
+   ],
+   [
+    "corn",
+    "rust"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "blueberry",
+    "rust"
+   ],
+   [
+    "corn",
+    "rust"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "potato",
+    "late blight"
+   ],
+   [
+    "tomato",
+    "early blight"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "cherry",
+    "spot"
+   ],
+   [
+    "tomato",
+    "early blight"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "apple",
+    "rust"
+   ],
+   [
+    "apple",
+    "scab"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "apple",
+    "black rot"
+   ],
+   [
+    "apple",
+    "rust"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "cherry",
+    "healthy"
+   ],
+   [
+    "cherry",
+    "spot"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "grape",
+    "black rot"
+   ],
+   [
+    "grape",
+    "downy mildew"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "bean",
+    "halo blight"
+   ],
+   [
+    "potato",
+    "early blight"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "bean",
+    "healthy"
+   ],
+   [
+    "soybean",
+    "healthy"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "cauliflower",
+    "alternaria spot"
+   ],
+   [
+    "tomato",
+    "early blight"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "early blight"
+   ],
+   [
+    "tomato",
+    "mold"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "pepper",
+    "healthy"
+   ],
+   [
+    "tomato",
+    "healthy"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "cauliflower",
+    "alternaria spot"
+   ],
+   [
+    "tomato",
+    "bacterial spot"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "cherry",
+    "spot"
+   ],
+   [
+    "tomato",
+    "bacterial spot"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "pepper",
+    "bacterial spot"
+   ],
+   [
+    "tomato",
+    "bacterial spot"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "bacterial spot"
+   ],
+   [
+    "tomato",
+    "late blight"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "mosaic virus"
+   ],
+   [
+    "tomato",
+    "yellow curl virus"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "mold"
+   ],
+   [
+    "tomato",
+    "yellow curl virus"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "eggplant",
+    "cercospora spot"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "bean",
+    "halo blight"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "strawberry",
+    "scorch"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "tomato",
+    "late blight"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   1
+  ],
+  [
+   "plantdoc | plantwild",
+   [
+    "cabbage",
+    "alternaria spot"
+   ],
+   [
+    "tomato",
+    "septoria spot"
+   ],
+   1
+  ],
+  [
+   "plantvillage | plantwild",
+   [
+    "grape",
+    "black rot"
+   ],
+   [
+    "grape",
+    "downy mildew"
+   ],
+   1
+  ]
+ ]
+}

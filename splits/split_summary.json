@@ -1,0 +1,52 @@
+{
+ "plantdoc": {
+  "images": 2578,
+  "test": 222,
+  "train": 2342,
+  "train_cleaned": 2253,
+  "train90": 2123,
+  "validation": 219,
+  "duplicate_groups": 69,
+  "conflicting_groups": 32
+ },
+ "paddydoctor": {
+  "images": 10407,
+  "test": 2086,
+  "train": 8321,
+  "train_cleaned": 6881,
+  "train90": 7492,
+  "validation": 829,
+  "duplicate_groups": 897,
+  "conflicting_groups": 21
+ },
+ "cassava2020": {
+  "images": 21397,
+  "test": 4282,
+  "train": 17115,
+  "train_cleaned": 17114,
+  "train90": 15406,
+  "validation": 1709,
+  "duplicate_groups": 1,
+  "conflicting_groups": 0
+ },
+ "rice_leaf": {
+  "images": 3829,
+  "test": 769,
+  "train": 3060,
+  "train_cleaned": 2992,
+  "train90": 2757,
+  "validation": 303,
+  "duplicate_groups": 78,
+  "conflicting_groups": 1
+ },
+ "plantwild": {
+  "images": 18542,
+  "test": 3744,
+  "train": 14798,
+  "train_cleaned": 13751,
+  "train90": 13355,
+  "validation": 1443,
+  "duplicate_groups": 628,
+  "conflicting_groups": 385
+ }
+}

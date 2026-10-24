@@ -1,0 +1,413 @@
+{
+ "_settings": {
+  "radius": 5,
+  "verify_corr": 0.9,
+  "hash": "dHash 64-bit (9x8)",
+  "thumb": "32x32 grey"
+ },
+ "datasets": {
+  "corn_maize": {
+   "images": 4188,
+   "unreadable": 0,
+   "classes": 4,
+   "splits": {
+    "train": 4188
+   },
+   "hash_matches_rejected_by_verification": 14,
+   "degenerate_hashes": 0,
+   "identical_hash": {
+    "pairs": 5,
+    "clusters": 5,
+    "images_in_clusters": 10,
+    "pct_images_in_clusters": 0.2387774594078319,
+    "redundant_images": 5,
+    "pct_redundant": 0.11938872970391595,
+    "conflicting_clusters": 2,
+    "images_in_conflicting_clusters": 4,
+    "pct_clusters_conflicting": 40.0
+   },
+   "near_r5": {
+    "pairs": 11,
+    "clusters": 11,
+    "images_in_clusters": 22,
+    "pct_images_in_clusters": 0.5253104106972302,
+    "redundant_images": 11,
+    "pct_redundant": 0.2626552053486151,
+    "conflicting_clusters": 3,
+    "images_in_conflicting_clusters": 6,
+    "pct_clusters_conflicting": 27.272727272727273
+   },
+   "byte_identical_files": {
+    "groups": 2,
+    "images": 4,
+    "conflicting_groups": 2
+   },
+   "random_split_80_20": {
+    "near_r5": {
+     "mean_pct_test": 0.4301075268817204,
+     "min": 0.23894862604540024,
+     "max": 0.5973715651135006
+    },
+    "identical_hash": {
+     "mean_pct_test": 0.1911589008363202,
+     "min": 0.0,
+     "max": 0.35842293906810035
+    },
+    "conflicting_r5": {
+     "mean_pct_test": 0.14336917562724014,
+     "min": 0.0,
+     "max": 0.35842293906810035
+    }
+   }
+  },
+  "paddydoctor": {
+   "images": 10407,
+   "unreadable": 0,
+   "classes": 10,
+   "splits": {
+    "train": 10407
+   },
+   "hash_matches_rejected_by_verification": 671,
+   "degenerate_hashes": 0,
+   "identical_hash": {
+    "pairs": 127,
+    "clusters": 119,
+    "images_in_clusters": 242,
+    "pct_images_in_clusters": 2.3253579321610456,
+    "redundant_images": 123,
+    "pct_redundant": 1.181896800230614,
+    "conflicting_clusters": 3,
+    "images_in_conflicting_clusters": 6,
+    "pct_clusters_conflicting": 2.5210084033613445
+   },
+   "near_r5": {
+    "pairs": 2631,
+    "clusters": 898,
+    "images_in_clusters": 2657,
+    "pct_images_in_clusters": 25.530892668396273,
+    "redundant_images": 1759,
+    "pct_redundant": 16.902085135005287,
+    "conflicting_clusters": 21,
+    "images_in_conflicting_clusters": 131,
+    "pct_clusters_conflicting": 2.338530066815145
+   },
+   "byte_identical_files": {
+    "groups": 72,
+    "images": 146,
+    "conflicting_groups": 0
+   },
+   "random_split_80_20": {
+    "near_r5": {
+     "mean_pct_test": 22.71373679154659,
+     "min": 22.046109510086456,
+     "max": 23.82324687800192
+    },
+    "identical_hash": {
+     "mean_pct_test": 1.9020172910662825,
+     "min": 1.48895292987512,
+     "max": 2.2574447646493754
+    },
+    "conflicting_r5": {
+     "mean_pct_test": 0.8693563880883766,
+     "min": 0.5283381364073007,
+     "max": 1.2007684918347743
+    }
+   }
+  },
+  "plantdoc": {
+   "images": 2572,
+   "unreadable": 0,
+   "classes": 28,
+   "splits": {
+    "test": 236,
+    "train": 2336
+   },
+   "hash_matches_rejected_by_verification": 3,
+   "degenerate_hashes": 0,
+   "identical_hash": {
+    "pairs": 50,
+    "clusters": 48,
+    "images_in_clusters": 97,
+    "pct_images_in_clusters": 3.771384136858476,
+    "redundant_images": 49,
+    "pct_redundant": 1.9051321928460343,
+    "conflicting_clusters": 25,
+    "images_in_conflicting_clusters": 51,
+    "pct_clusters_conflicting": 52.083333333333336,
+    "test_images": 236,
+    "test_with_train_match": 14,
+    "pct_test_with_train_match": 5.932203389830509,
+    "test_match_with_different_label": 9
+   },
+   "near_r5": {
+    "pairs": 72,
+    "clusters": 68,
+    "images_in_clusters": 138,
+    "pct_images_in_clusters": 5.36547433903577,
+    "redundant_images": 70,
+    "pct_redundant": 2.7216174183514776,
+    "conflicting_clusters": 32,
+    "images_in_conflicting_clusters": 66,
+    "pct_clusters_conflicting": 47.05882352941177,
+    "test_images": 236,
+    "test_with_train_match": 14,
+    "pct_test_with_train_match": 5.932203389830509,
+    "test_match_with_different_label": 9
+   },
+   "byte_identical_files": {
+    "groups": 12,
+    "images": 24,
+    "conflicting_groups": 9
+   }
+  },
+  "plantpathology2021": {
+   "images": 18166,
+   "unreadable": 0,
+   "classes": 12,
+   "splits": {
+    "train": 16768,
+    "validation": 1398
+   },
+   "hash_matches_rejected_by_verification": 0,
+   "degenerate_hashes": 0,
+   "identical_hash": {
+    "pairs": 27,
+    "clusters": 27,
+    "images_in_clusters": 54,
+    "pct_images_in_clusters": 0.2972586149950457,
+    "redundant_images": 27,
+    "pct_redundant": 0.14862930749752284,
+    "conflicting_clusters": 26,
+    "images_in_conflicting_clusters": 52,
+    "pct_clusters_conflicting": 96.29629629629629
+   },
+   "near_r5": {
+    "pairs": 43,
+    "clusters": 43,
+    "images_in_clusters": 86,
+    "pct_images_in_clusters": 0.47341186832544313,
+    "redundant_images": 43,
+    "pct_redundant": 0.23670593416272157,
+    "conflicting_clusters": 26,
+    "images_in_conflicting_clusters": 52,
+    "pct_clusters_conflicting": 60.46511627906977
+   },
+   "byte_identical_files": {
+    "groups": 26,
+    "images": 52,
+    "conflicting_groups": 26
+   },
+   "random_split_80_20": {
+    "near_r5": {
+     "mean_pct_test": 0.3964757709251101,
+     "min": 0.30286343612334804,
+     "max": 0.5231277533039648
+    },
+    "identical_hash": {
+     "mean_pct_test": 0.24779735682819384,
+     "min": 0.16519823788546256,
+     "max": 0.44052863436123346
+    },
+    "conflicting_r5": {
+     "mean_pct_test": 0.23127753303964757,
+     "min": 0.13766519823788545,
+     "max": 0.4129955947136564
+    }
+   }
+  },
+  "plantvillage": {
+   "images": 54305,
+   "unreadable": 0,
+   "classes": 38,
+   "splits": {
+    "all": 54305
+   },
+   "hash_matches_rejected_by_verification": 458,
+   "degenerate_hashes": 0,
+   "identical_hash": {
+    "pairs": 23,
+    "clusters": 23,
+    "images_in_clusters": 46,
+    "pct_images_in_clusters": 0.0847067489181475,
+    "redundant_images": 23,
+    "pct_redundant": 0.04235337445907375,
+    "conflicting_clusters": 0,
+    "images_in_conflicting_clusters": 0,
+    "pct_clusters_conflicting": 0.0
+   },
+   "near_r5": {
+    "pairs": 211,
+    "clusters": 190,
+    "images_in_clusters": 397,
+    "pct_images_in_clusters": 0.7310560721848817,
+    "redundant_images": 207,
+    "pct_redundant": 0.3811803701316637,
+    "conflicting_clusters": 2,
+    "images_in_conflicting_clusters": 4,
+    "pct_clusters_conflicting": 1.0526315789473684
+   },
+   "byte_identical_files": {
+    "groups": 21,
+    "images": 42,
+    "conflicting_groups": 0
+   },
+   "random_split_80_20": {
+    "near_r5": {
+     "mean_pct_test": 0.599557929637134,
+     "min": 0.5065389574507275,
+     "max": 0.681525142751888
+    },
+    "identical_hash": {
+     "mean_pct_test": 0.05157487566771044,
+     "min": 0.027629397679130595,
+     "max": 0.08288819303739178
+    },
+    "conflicting_r5": {
+     "mean_pct_test": 0.005525879535826119,
+     "min": 0.0,
+     "max": 0.009209799226376865
+    }
+   }
+  },
+  "plantwild": {
+   "images": 18542,
+   "unreadable": 0,
+   "classes": 89,
+   "splits": {
+    "all": 18542
+   },
+   "hash_matches_rejected_by_verification": 75,
+   "degenerate_hashes": 0,
+   "identical_hash": {
+    "pairs": 552,
+    "clusters": 443,
+    "images_in_clusters": 935,
+    "pct_images_in_clusters": 5.0426059756229105,
+    "redundant_images": 492,
+    "pct_redundant": 2.653435443857189,
+    "conflicting_clusters": 321,
+    "images_in_conflicting_clusters": 689,
+    "pct_clusters_conflicting": 72.46049661399549
+   },
+   "near_r5": {
+    "pairs": 846,
+    "clusters": 627,
+    "images_in_clusters": 1354,
+    "pct_images_in_clusters": 7.302340632078525,
+    "redundant_images": 727,
+    "pct_redundant": 3.9208283896019847,
+    "conflicting_clusters": 385,
+    "images_in_conflicting_clusters": 850,
+    "pct_clusters_conflicting": 61.40350877192982
+   },
+   "byte_identical_files": {
+    "groups": 335,
+    "images": 702,
+    "conflicting_groups": 279
+   },
+   "random_split_80_20": {
+    "near_r5": {
+     "mean_pct_test": 6.097626752966559,
+     "min": 5.339805825242719,
+     "max": 6.715210355987055
+    },
+    "identical_hash": {
+     "mean_pct_test": 4.2098166127292345,
+     "min": 3.6407766990291264,
+     "max": 4.638619201725998
+    },
+    "conflicting_r5": {
+     "mean_pct_test": 3.8295577130528584,
+     "min": 3.290183387270766,
+     "max": 4.449838187702265
+    }
+   }
+  },
+  "rice_leaf": {
+   "images": 3829,
+   "unreadable": 0,
+   "classes": 6,
+   "splits": {
+    "train": 3829
+   },
+   "hash_matches_rejected_by_verification": 99,
+   "degenerate_hashes": 2,
+   "identical_hash": {
+    "pairs": 40,
+    "clusters": 40,
+    "images_in_clusters": 80,
+    "pct_images_in_clusters": 2.0893183598850875,
+    "redundant_images": 40,
+    "pct_redundant": 1.0446591799425438,
+    "conflicting_clusters": 0,
+    "images_in_conflicting_clusters": 0,
+    "pct_clusters_conflicting": 0.0
+   },
+   "near_r5": {
+    "pairs": 175,
+    "clusters": 80,
+    "images_in_clusters": 188,
+    "pct_images_in_clusters": 4.909898145729955,
+    "redundant_images": 108,
+    "pct_redundant": 2.8205797858448682,
+    "conflicting_clusters": 1,
+    "images_in_conflicting_clusters": 2,
+    "pct_clusters_conflicting": 1.25
+   },
+   "byte_identical_files": {
+    "groups": 31,
+    "images": 62,
+    "conflicting_groups": 0
+   },
+   "random_split_80_20": {
+    "near_r5": {
+     "mean_pct_test": 4.464751958224544,
+     "min": 3.524804177545692,
+     "max": 5.221932114882507
+    },
+    "identical_hash": {
+     "mean_pct_test": 1.6710182767624022,
+     "min": 1.174934725848564,
+     "max": 2.088772845953003
+    },
+    "conflicting_r5": {
+     "mean_pct_test": 0.03916449086161881,
+     "min": 0.0,
+     "max": 0.13054830287206268
+    }
+   }
+  }
+ },
+ "cross": {
+  "corn_maize|plantdoc": {
+   "pairs": 295,
+   "identical_hash_pairs": 288,
+   "images_corn_maize": 283,
+   "images_plantdoc": 284
+  },
+  "corn_maize|plantvillage": {
+   "pairs": 3860,
+   "identical_hash_pairs": 3856,
+   "images_corn_maize": 3852,
+   "images_plantvillage": 3852
+  },
+  "corn_maize|plantwild": {
+   "pairs": 62,
+   "identical_hash_pairs": 48,
+   "images_corn_maize": 59,
+   "images_plantwild": 59
+  },
+  "plantdoc|plantwild": {
+   "pairs": 417,
+   "identical_hash_pairs": 308,
+   "images_plantdoc": 353,
+   "images_plantwild": 378
+  },
+  "plantvillage|plantwild": {
+   "pairs": 44,
+   "identical_hash_pairs": 7,
+   "images_plantvillage": 44,
+   "images_plantwild": 44
+  }
+ }
+}

@@ -1,0 +1,6 @@
+{"source": "torch FlopCounterMode at 224x224, batch 1 (FLOPs = 2 x MACs); throughput from notebook F logs on Tesla T4, fp16, batch 128, includes decoding of cached 256 px arrays and resizing",
+ "params_M": {"efficientnet_b0": 4.0, "dinov2_vit_l14": 303.2, "clip_vit_l14": 303.2, "vit_s16": 21.7},
+ "gflops": {"efficientnet_b0": 0.77, "dinov2_vit_l14": 155.53, "clip_vit_l14": 155.53, "vit_s16": 8.48},
+ "adaptive_model": {"params_total_M": 611.3, "params_trained_M": "4.0 (CNN) + head (2048 x C linear + 4C x 2048 prototypes; 0.18 M + 0.73 M for PlantWild, C = 89)", "gflops_total": 311.8},
+ "throughput_img_per_s_T4": {"dinov2_vit_l14": {"plantwild": 90.9, "cassava": 89.2, "paddy": 91.3}, "clip_vit_l14": {"plantwild": 88.3, "cassava": 87.0, "paddy": 91.3}},
+ "note": "two frozen ViT-L passes give about 45 images/s (about 22 ms per image) on a T4; EfficientNet-B0 fine-tuning 2.0-13.6 min per seed; feature extraction once per dataset 0.4-4.1 min per backbone"}

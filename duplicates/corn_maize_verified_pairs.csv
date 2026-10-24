@@ -1,0 +1,12 @@
+image_a,image_b,hamming_distance,thumbnail_correlation
+train-00000-of-00001.parquet#0#84,train-00000-of-00001.parquet#0#846,0,0.997
+train-00000-of-00001.parquet#0#399,train-00000-of-00001.parquet#0#1097,0,0.999
+train-00000-of-00001.parquet#0#1353,train-00000-of-00001.parquet#0#2520,0,1.000
+train-00000-of-00001.parquet#0#1481,train-00000-of-00001.parquet#0#2652,0,1.000
+train-00000-of-00001.parquet#0#1609,train-00000-of-00001.parquet#0#2091,1,0.999
+train-00000-of-00001.parquet#0#1853,train-00000-of-00001.parquet#0#1991,5,0.981
+train-00000-of-00001.parquet#0#1914,train-00000-of-00001.parquet#0#2798,5,0.938
+train-00000-of-00001.parquet#0#2258,train-00000-of-00001.parquet#0#2800,4,0.962
+train-00000-of-00001.parquet#0#2611,train-00000-of-00001.parquet#0#2780,1,0.995
+train-00000-of-00001.parquet#0#2898,train-00000-of-00001.parquet#0#3105,3,0.961
+train-00000-of-00001.parquet#0#3014,train-00000-of-00001.parquet#0#3069,0,0.999
